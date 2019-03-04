@@ -1,0 +1,218 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>电影购票</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="../web/css/style.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="../web/css/slider.css" rel="stylesheet" type="text/css" media="all"/>
+	<script type="text/javascript" src="../web/js/jquery-1.9.0.min.js"></script>
+	<script type="text/javascript" src="../web/js/move-top.js"></script>
+	<script type="text/javascript" src="../web/js/easing.js"></script>
+	<script type="text/javascript" src="../web/js/jquery.nivo.slider.js"></script>
+	<script type="text/javascript">
+		$(window).load(function () {
+			$('#slider').nivoSlider();
+		});
+	</script>
+</head>
+<body>
+	<div class="header">
+		 <div class="headertop_desc">
+			<div class="wrap">
+				<div class="nav_list">
+					<ul>
+						<li><a href="/web/show">电影主页</a></li>
+					</ul>
+				</div>
+					<div class="account_desc">
+						<ul>
+							<span th:if="${session.curruser!=null}">
+							<li><a th:href="@{/web/personal(uid=${session.curruser.id})}"><b th:text="${session.curruser.name}"></b></a></li>
+							</span>
+						</ul>
+					</div>
+				<div class="clear"></div>
+			</div>
+	  	</div>
+  	  		<div class="wrap">
+				<div class="header_top">
+					<div class="logo">
+						<a href="web_homepage.html"><img src="../web/images/logo.png" alt="" /></a>
+					</div>
+						<div class="header_top_right">
+							<div><span style="color:orange; font-weight: bold">影片查询 </span></div>
+							  <div class="search_box">
+					     		<form action="/web/search" method="post">
+					     			<!--<input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}"><input type="submit" value="">-->
+
+									<input type="text" name="film_name" value=""><input type="submit" value="">
+					     		</form>
+					     	</div>
+						 <div class="clear"></div>
+					</div>
+
+			 <div class="clear"></div>
+  		</div>     
+				<div class="header_bottom">
+					<div class="header_bottom_left">
+						<form action="/web/searchType" method="post">
+						<div class="categories" >
+						   <ul >
+						  	   <h3>影片分类</h3>
+							   <li><input type="submit" value="科幻" name="film_type" style="width: 300px;height: 40px;border: 1px;background-color: whitesmoke"/></li>
+							   <li><input type="submit" value="欧美" name="film_type" style="width: 300px;height: 40px;border: 1px;background-color: whitesmoke"/></li>
+							   <li><input type="submit" value="动画" name="film_type" style="width: 300px;height: 40px;border: 1px;background-color: whitesmoke"/></li>
+							   <li><input type="submit" value="恐怖" name="film_type" style="width: 300px;height: 40px;border: 1px;background-color: whitesmoke"/></li>
+							   <li><input type="submit" value="喜剧" name="film_type" style="width: 300px;height: 40px;border: 1px;background-color: whitesmoke"/></li>
+							   <li><input type="submit" value="动作" name="film_type" style="width: 300px;height: 40px;border: 1px;background-color: whitesmoke"/></li>
+							   <li><input type="submit" value="剧情" name="film_type" style="width: 300px;height: 40px;border: 1px;background-color: whitesmoke"/></li>
+							   <li><input type="submit" value="悬疑" name="film_type" style="width: 300px;height: 40px;border: 1px;background-color: whitesmoke"/></li>
+							   <li><input type="submit" value="惊悚" name="film_type" style="width: 300px;height: 40px;border: 1px;background-color: whitesmoke"/></li>
+							   <li><input type="submit" value="爱情" name="film_type" style="width: 300px;height: 40px;border: 1px;background-color: whitesmoke"/></li>
+
+						  	 </ul>
+						</div>
+						</form>
+		  	         </div>
+						    <div class="header_bottom_right">					 
+						 	    <!------ Slider ------------>
+								  <div class="slider">
+							      	<div class="slider-wrapper theme-default">
+							            <div id="slider" class="nivoSlider">
+							                <img src="../web/images/1.jpg" data-thumb="../web/images/1.jpg" alt="" />
+							                <img src="../web/images/2.jpg" data-thumb="../web/images/2.jpg" alt="" />
+							                <img src="../web/images/3.jpg" data-thumb="../web/images/3.jpg" alt="" />
+							                <img src="../web/images/4.jpg" data-thumb="../web/images/4.jpg" alt="" />
+							                 <img src="../web/images/5.jpg" data-thumb="../web/images/5.jpg" alt="" />
+							            </div>
+							        </div>
+						   		</div>
+						<!------End Slider ------------>
+			         </div>
+			     <div class="clear"></div>
+			</div>
+   		</div>
+   </div>
+
+   <!------------End Header ------------>
+  <div class="main" >
+  	<div class="wrap">
+      <div class="content">
+    	<div class="content_top">
+    		<div class="heading">
+    		<h3>影片列表</h3>
+    		</div>
+    	</div>
+	      <div class="section group">
+			  <form th:each="film,var:${session.currFilm.list}">
+
+				<div class="grid_1_of_5 images_1_of_5" style="height: 280px;width: 172px" align="center">
+					<div >
+					<a th:href="@{/web/detailFilm(id=${film.id})}"><img th:src="@{/}+${film.film_pic}" height="210"/></a>
+					 <!--<h2 ><a href="/web/detailFilm"></a></h2>-->
+					</div>
+
+					<div >
+						<div  style="height: 20px">
+							<td th:text="${film.film_name}"></td>
+						</div>
+						<div class="button">
+							<a th:href="@{/web/detailFilm(id=${film.id})}" >购票</a>
+						</div>
+
+						<div class="clear"></div>
+					</div>					 
+				</div>
+			  </form>
+			</div>
+		  <br/>
+		  <div align="center">
+			  <div >
+				  <a th:href="@{/web/show(currentPage=${session.currFilm.prePage})}" >上一页</a> &nbsp &nbsp
+				  <td th:text="${session.currFilm.pageNum}"></td> &nbsp &nbsp
+
+				  <a th:href="@{/web/show(currentPage=${session.currFilm.nextPage})}">下一页</a>&nbsp &nbsp &nbsp &nbsp
+
+				 <!-- <a th:href="@{/web/show(currentPage=${session.currFilm.nextPage})}" >下一页</a>&nbsp &nbsp &nbsp &nbsp-->
+				  总计:<td th:text="${session.currFilm.total}"></td>部
+			  </div>
+		  </div>
+
+       </div>
+  </div>
+</div>
+   <div class="footer">
+   	  <div class="wrap">	
+	     <!--<div class="section group">
+				<div class="col_1_of_4 span_1_of_4">
+						<h4>Information</h4>
+						<ul>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Customer Service</a></li>
+						<li><a href="#">Advanced Search</a></li>
+						<li><a href="#">Orders and Returns</a></li>
+						<li><a href="#">Contact Us</a></li>
+						</ul>
+					</div>
+				<div class="col_1_of_4 span_1_of_4">
+					<h4>Why buy from us</h4>
+						<ul>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Customer Service</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Site Map</a></li>
+						<li><a href="#">Search Terms</a></li>
+						</ul>
+				</div>
+				<div class="col_1_of_4 span_1_of_4">
+					<h4>My account</h4>
+						<ul>
+							<li><a href="#">Sign In</a></li>
+							<li><a href="#">View Cart</a></li>
+							<li><a href="#">My Wishlist</a></li>
+							<li><a href="#">Track My Order</a></li>
+							<li><a href="#">Help</a></li>
+						</ul>
+				</div>
+				<div class="col_1_of_4 span_1_of_4">
+					<h4>Contact</h4>
+						<ul>
+							<li><span>+91-123-456789</span></li>
+							<li><span>+00-123-000000</span></li>
+						</ul>
+						<div class="social-icons">
+							<h4>Follow Us</h4>
+					   		  <ul>
+							      <li><a href="#" target="_blank"><img src="../web/images/facebook.png" alt="" /></a></li>
+							      <li><a href="#" target="_blank"><img src="../web/images/twitter.png" alt="" /></a></li>
+							      <li><a href="#" target="_blank"><img src="../web/images/skype.png" alt="" /> </a></li>
+							      <li><a href="#" target="_blank"> <img src="../web/images/linkedin.png" alt="" /></a></li>
+							      <div class="clear"></div>
+						     </ul>
+   	 					</div>
+				</div>
+			</div>
+
+        </div>-->
+    </div>
+
+    <script type="text/javascript">
+		$(document).ready(function() {			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+    <a href="#" id="toTop"><span id="toTopHover"> </span></a>
+
+</body>
+</html>
+

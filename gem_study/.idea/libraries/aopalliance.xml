@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="aopalliance">
+    <CLASSES>
+      <root url="jar://F:/Dev/Java/学习资料/Gem/代码/1226/Demo1226/lib/aopalliance.jar!/" />
+      <root url="jar://F:/Dev/Java/学习资料/Gem/代码/1226/Demo1226/lib/aspectjweaver.jar!/" />
+      <root url="jar://F:/Dev/Java/学习资料/Gem/代码/1226/Demo1226/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://F:/Dev/Java/学习资料/Gem/代码/1226/Demo1226/lib/spring-aop-4.3.2.RELEASE.jar!/" />
+      <root url="jar://F:/Dev/Java/学习资料/Gem/代码/1226/Demo1226/lib/spring-aspects-4.3.2.RELEASE.jar!/" />
+      <root url="jar://F:/Dev/Java/学习资料/Gem/代码/1226/Demo1226/lib/spring-beans-4.3.2.RELEASE.jar!/" />
+      <root url="jar://F:/Dev/Java/学习资料/Gem/代码/1226/Demo1226/lib/spring-context-4.3.2.RELEASE.jar!/" />
+      <root url="jar://F:/Dev/Java/学习资料/Gem/代码/1226/Demo1226/lib/spring-core-4.3.2.RELEASE.jar!/" />
+      <root url="jar://F:/Dev/Java/学习资料/Gem/代码/1226/Demo1226/lib/spring-expression-4.3.2.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

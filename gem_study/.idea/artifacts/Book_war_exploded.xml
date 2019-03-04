@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Book:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Book_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Book" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mybatis-3.4.4" />
+          <element id="library" level="project" name="mysql-connector-java-3.1.10-bin" />
+          <element id="file-copy" path="F:/Dev/Java/学习资料/Gem/tools/jar/jstl.jar和standard-1.1.2.jar/jstl.jar" />
+          <element id="file-copy" path="F:/Dev/Java/学习资料/Gem/tools/jar/jstl.jar和standard-1.1.2.jar/standard-1.1.2.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Book/web/Web" />
+    </root>
+  </artifact>
+</component>

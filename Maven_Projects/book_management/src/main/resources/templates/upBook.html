@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>main.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+  </head>
+  
+  <body>
+  <h2 align="center">更新图书信息</h2>
+  <div style="border:0px red solid;margin-left:30%;"><a href="/book/show">首页</a></div>
+  <form action="/book/upBook" method="post">
+  		<table width="500px" align="center" border="1px">
+    	<tr>
+    		<td>书名</td>
+    		<td><input type="text" name="bname" th:value="${session.upBook.bname}"/></td>
+    	</tr>
+    	<tr>
+    		<td>作者</td>
+    		<td><input type="text" name="author" th:value="${session.upBook.author}"/></td>
+    	</tr>
+			<tr>
+				<td>简介</td>
+				<td><input type="text" name="remark" th:value="${session.upBook.remark}"/></td>
+			</tr>
+			<tr>
+				<td>价格</td>
+				<td><input type="text" name="price" th:value="${session.upBook.price}"/></td>
+			</tr>
+    	<tr >
+    		<td>
+    			<input type="reset" value="重置图书信息"/>
+    		</td>
+    		<td>
+    			<input type="submit" value="确认信息"/>
+    			<input type="hidden" name="id" th:value="${session.upBook.id}"/>
+    		</td>
+    	</tr>
+    </table>
+  </form>
+    
+  </body>
+</html>

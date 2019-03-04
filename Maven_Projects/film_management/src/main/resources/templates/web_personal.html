@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml">
+<head >
+	<title>个人中心</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link href="../web/css/style.css" rel="stylesheet" type="text/css" media="all"/>
+
+	<link rel="stylesheet" type="text/css" href="../confirm/mycss.css"/>
+	<script type="text/javascript" src="../web/js/jquery-1.9.0.min.js"></script>
+	<script type="text/javascript" src="../web/js/move-top.js"></script>
+	<script type="text/javascript" src="../web/js/easing.js"></script>
+
+
+
+	<script  src="../confirm/myjs.js" ></script>
+
+
+</head>
+<body>
+<div class="header">
+	<div class="headertop_desc">
+		<div class="wrap">
+			<div class="nav_list">
+				<ul>
+					<li><a href="/web/show">电影主页</a></li>
+				</ul>
+			</div>
+			<div class="account_desc">
+				<ul>
+					<li><a th:href="@{/web/personal(uid=${session.curruser.id})}" ><b th:text="${session.curruser.name}"></b></a></li>
+					<li><a href="/film/logout" onclick="return confirm('确认注销？');"><i class="fa fa-sign-out fa-fw"></i> 注销用户 </a></li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div class="wrap">
+		<div class="header_top">
+			<div class="logo">
+				<a href="/web/show"><img src="../web/images/logo.png" alt=""/></a>
+			</div>
+			<div class="header_top_right">
+
+				<div class="clear"></div>
+			</div>
+			<script type="text/javascript">
+				function DropDown(el) {
+					this.dd = el;
+					this.initEvents();
+				}
+
+				DropDown.prototype = {
+					initEvents: function () {
+						var obj = this;
+
+						obj.dd.on('click', function (event) {
+							$(this).toggleClass('active');
+							event.stopPropagation();
+						});
+					}
+				}
+
+				$(function () {
+
+					var dd = new DropDown($('#dd'));
+
+					$(document).click(function () {
+						// all dropdowns
+						$('.wrapper-dropdown-2').removeClass('active');
+					});
+
+				});
+			</script>
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>
+<div class="main">
+	<div class="wrap">
+		<div class="content_top">
+			<h2 style="color:orange; font-weight: bold" align="left">购票订单</h2>
+			<div class="clear"></div>
+		</div>
+				<!--<table border="1" width="1000" >
+
+					<tr>
+						<th>序号</th>
+						<th>影片</th>
+						<th >数量</th>
+						<th>开始时间</th>
+						<th>结束时间</th>
+						<th >订单时间</th>
+					</tr>
+
+					<tr th:each="order,var:${session.personalOrder}">
+						<td th:text="${var.count}"></td>
+						<td th:text="${order.film_name}"></td>
+						<td th:text="${order.film_number}"></td>
+						<td th:text="${order.film_start}"></td>
+						<td th:text="${order.film_end}"></td>
+						<td th:text="${order.order_time}"></td>
+					</tr>
+				</table>-->
+
+
+				<div  th:each="order,var:${session.personalOrder}" style="width:auto;float: left">
+
+
+					<!--<div 　th:style="'background-color:' + ${var.count%3==0} ? ' #00aced' : '#ff00ff' + ''" style="width: 200px; height: 200px;">-->
+
+
+					<!--<div th:style="'float:' + @{(${var.count%3==0} ? 'left' :)} + ''" >-->
+					<div class="product-details">
+						<!--<div class="product-details">-->
+						<!--<div class="grid images_3_of_2">
+							&lt;!&ndash;<img th:src="@{/}+${order.film_pic}" alt=""/>&ndash;&gt;
+						</div>-->
+						<!--<h2 th:text="${session.curruser.user}" style="color:orange; font-weight: bold" ></h2>-->
+						<!--<br>-->
+					<div class="desc span_3_of_2" style="width: 360px;background-color:snow;margin: 2px 20px">
+							 <h2 th:text="${order.film_name}" style="color:orange; font-weight: bold" ></h2>
+							<br/>
+							<span style="color:orange">数量:</span>
+							<span th:text="${order.film_number}"></span>
+							<span style="color:orange">张</span>
+							<br/>
+							<div class="wish-list" style="font-size: 15px; color: grey">
+								<ul>
+									<span style="color:orange">观影时间</span>
+									<br/>
+                                    <span>开始时间：</span>
+									<span th:text="${order.film_start}" style="font-size: 14px; color: grey"></span>
+									<br/>
+                                    <span>结束时间：</span>
+									<span th:text="${order.film_end}" style="font-size: 14px; color: grey" ></span>
+								</ul>
+							</div>
+
+							<div class="wish-list" style="font-size: 15px; color: grey">
+                                <span style="color:orange">订单时间：</span> <span th:text="${order.order_time}"></span>
+
+							</div>
+						<div class="share-desc">
+                            <span style="color:orange;" >操作:</span>
+							<div class="button" >
+
+                                <a th:href="@{/web/delOrder(id=${order.id},uid=${session.curruser.id})}" onclick="return confirm('确认删除？');">删除</a>
+							</div>
+						</div>
+
+						</div>
+						<!--<div class="clear"></div>-->
+					</div>
+
+					</div>
+				<!--</div>-->
+
+		</div>
+	</div>
+
+</div>
+<!--<script type="text/javascript">
+	function del(id){
+		var result=window.confirm("确认删除订单？");
+		if(result){
+			window.location.href="@{/web/delOrder(id=${order.id},uid=${session.curruser.id})}"+id;
+		}
+	}
+
+</script>-->
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$().UItoTop({easingType: 'easeOutQuart'});
+
+		});
+	</script>
+	<a href="#" id="toTop"><span id="toTopHover"> </span></a>
+
+</body>
+</html>
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 映射器配置  sql pojo  namespace  id 自定义-->
+
+<mapper namespace="com.gem.film_management.mapper.OrderMapper">
+    <select id="getAllOrder" resultType="Order" parameterType="Order">
+		select * from orders
+	</select>
+
+	<select id="getOrderByTime" resultType="Order" parameterType="Order">
+		select * from orders where order_time=#{order_time}
+	</select>
+
+	<select id="getOrderByUid" resultType="Order">
+		select * from orders where uid=#{uid}
+	</select>
+
+	<delete id="delOrder">
+		delete from orders where id=#{id}
+	</delete>
+
+	<insert id="addOrder" parameterType="Order">
+		insert into orders (id,fid,uid,film_name,film_price,film_start,film_end,order_time,film_number,user_name) values (#{id},#{fid}, #{uid},#{film_name}, #{film_price}, #{film_start}, #{film_end}, #{order_time}, #{film_number},#{user_name})
+	</insert>
+
+</mapper>

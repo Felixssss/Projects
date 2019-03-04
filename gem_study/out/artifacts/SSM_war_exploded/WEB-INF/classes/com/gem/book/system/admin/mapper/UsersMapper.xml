@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 映射器配置  sql pojo  namespace  id 自定义-->
+
+<mapper namespace="com.gem.book.system.admin.mapper.UserMapper">
+    <select id="getUser" resultType="User" parameterType="User">
+		select * from users  where  username=#{username} and pwd=#{pwd}
+	</select>
+</mapper>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml" xmlns:color="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>main.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+  </head>
+  
+  <body>
+  <h1 align="center">图书借阅管理系统</h1>
+    <a th:href="@{/book/addBook}" style="margin-left: 25%">新增图书</a>
+    <table width="600px" align="center" border="1px">
+    	<tr>
+    		<th>序号</th>
+    		<th>书名</th>
+			<th>作者</th>
+			<th>价格</th>
+
+    		<th style="width: 100px">操作</th>
+    	</tr>
+    	<!-- 遍历集合 -->
+    	<tr th:each="book,var:${currBooks.list}">
+    		<td th:text="${var.count}"></td>
+			<td><a th:href="@{/book/detailBook(id=${book.id})}" th:text="${book.bname}"></a> </td>
+    		<td th:text="${book.author}"></td>
+			<td th:text="${book.price}"></td>
+    		<td>
+    			<a th:href="@{/book/getBook(id=${book.id})}">更新图书信息</a>
+				<br/>
+    			<!--&nbsp;&nbsp;&nbsp;&nbsp;-->
+    			<a th:href="@{/book/del(id=${book.id})}">删除图书信息</a>
+    		</td>
+    	</tr>
+    </table>
+  		<br>
+  		<br>
+  <table align="center">
+	  <tr>
+
+		  <th><a th:href="@{/book/show(currentPage=${currBooks.prePage})}" >上一页</a></th>&nbsp;&nbsp;&nbsp;&nbsp;
+		  <th><a th:href="@{/book/show(currentPage=${currBooks.nextPage})}" >下一页</a></th>
+	  </tr>
+  </table >
+
+
+  </body>
+</html>

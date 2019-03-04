@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>main.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <link rel="stylesheet" type="text/css" th:href="@{/css/main.css}">
+
+  </head>
+  
+  <body>
+    <a th:href="@{/user/addUser}">新增</a>
+    <table width="500px" align="center" border="1px">
+    	<tr>
+    		<th>序号</th>
+    		<th>姓名</th>
+    		<th>年龄</th>
+    		<th>头像</th>
+    		<th>操作</th>
+    	</tr>
+    	<!-- 遍历集合 -->
+    	<tr th:each="user,var:${session.users}">
+    		<td th:text="${var.count}"></td>
+    		<td th:text="${user.name}"></td>
+    		<td th:text="${user.age}"></td>
+    		<td><img th:src="@{/img/pic.jpg}" width="50px" height="50px"/></td>
+    		<td>
+    			<a th:href="@{/user/getUser(id=${user.id})}">更新</a>
+    			&nbsp;&nbsp;&nbsp;&nbsp;
+    			<a th:href="@{/user/del(id=${user.id})}">删除</a>
+    		</td>
+    	</tr>
+    </table>
+    <a th:href="@{/user/test}">测试</a>
+    <a th:href="@{/user/uploadPage}" href="upload.html">上传</a>
+    <br/>
+   
+  </body>
+</html>

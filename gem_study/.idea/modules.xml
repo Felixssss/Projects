@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Book/Book.iml" filepath="$PROJECT_DIR$/Book/Book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo1128/Demo1128.iml" filepath="$PROJECT_DIR$/Demo1128/Demo1128.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo1203/Demo1203.iml" filepath="$PROJECT_DIR$/Demo1203/Demo1203.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo1205/Demo1205.iml" filepath="$PROJECT_DIR$/Demo1205/Demo1205.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo1224/Demo1224.iml" filepath="$PROJECT_DIR$/Demo1224/Demo1224.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo1225/Demo1225.iml" filepath="$PROJECT_DIR$/Demo1225/Demo1225.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo1226/Demo1226.iml" filepath="$PROJECT_DIR$/Demo1226/Demo1226.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FruitMarketV3.0/FruitMarketV3.0.iml" filepath="$PROJECT_DIR$/FruitMarketV3.0/FruitMarketV3.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FruitMarketV4.0/FruitMarketV4.0.iml" filepath="$PROJECT_DIR$/FruitMarketV4.0/FruitMarketV4.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NewsManagement/NewsManagement.iml" filepath="$PROJECT_DIR$/NewsManagement/NewsManagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gem_study.iml" filepath="$PROJECT_DIR$/gem_study.iml" />
+    </modules>
+  </component>
+</project>

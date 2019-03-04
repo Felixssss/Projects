@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:c="http://www.w3.org/1999/XSL/Transform" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    a{
+        color:blue;
+    }
+</style>
+
+<body>
+<h2 align="center">客户详情</h2>
+<div style="border:0px red solid;margin-left:30%;"><a href="main.jsp">首页</a></div>
+<br/>
+<form action="/user/detailUser" method="post">
+    <table width="500px" align="center" border="1px">
+        <tr>
+            <td>姓名</td>
+            <td><input type="text" name="name" th:value="${session.detailUser.name}" disabled="ture"/></td>
+        </tr>
+        <tr>
+            <td>年龄</td>
+            <td><input type="text" name="age" th:value="${session.detailUser.age}" disabled="ture"/></td>
+        </tr>
+        <tr>
+            <td>性别</td>
+            <td><input type="text" name="gender" th:value="${session.detailUser.gender}" disabled="ture"/></td>
+        </tr>
+        <tr>
+            <td>籍贯</td>
+            <td><input type="text" name="address" th:value="${session.detailUser.address}" disabled="ture"/></td>
+        </tr>
+    </table>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 映射器配置  sql pojo  namespace  id 自定义-->
+
+<mapper namespace="com.gem.film_management.mapper.FilmMapper">
+    <select id="getAllFilm" resultType="Film" parameterType="Film">
+		select * from film
+	</select>
+
+	<select id="getFilmById" resultType="Film">
+		select * from film where id=#{id}
+	</select>
+
+	<select id="filmTotal" resultType="Integer">
+		select count(*) from film
+	</select>
+
+	<select id="searchTotal" resultType="Integer">
+		select count(*) from film where film_name  like  concat('%',#{film_name},'%')
+	</select>
+
+	<update id="upFilm" parameterType="Film">
+		update film set film_name=#{film_name},film_pic=#{film_pic},film_introduce=#{film_introduce},film_price=#{film_price},film_start=#{film_start},film_end=#{film_end}, film_type=#{film_type} where id=#{id}
+	</update>
+
+	<delete id="delFilm">
+		delete from film where id=#{id}
+	</delete>
+
+	<insert id="addFilm" parameterType="Film">
+		insert into film(film_name,film_pic,film_introduce,film_price,film_start,film_end,film_type) values (#{film_name}, #{film_pic}, #{film_introduce}, #{film_price}, #{film_start}, #{film_end}, #{film_type})
+	</insert>
+
+	<select id="searchFilm" resultType="Film" >
+		select * from film where film_name like concat('%',#{film_name},'%')
+	</select>
+
+	<select id="searchType" resultType="Film">
+		select * from film where film_type like concat('%',#{film_type},'%')
+	</select>
+
+</mapper>

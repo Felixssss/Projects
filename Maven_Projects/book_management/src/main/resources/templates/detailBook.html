@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:c="http://www.w3.org/1999/XSL/Transform" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    a{
+        color:blue;
+    }
+</style>
+
+<body>
+<h2 align="center">图书详情</h2>
+<div style="border:0px red solid;margin-left:30%;"><a href="/book/show">首页</a></div>
+<br/>
+<form action="/book/detailBook" method="post">
+    <table width="500px" align="center" border="1px">
+        <tr>
+            <td>书名</td>
+            <td><input type="text" name="bname" th:value="${session.detailBook.bname}" readonly ="readonly" style="width:100%"/></td>
+        </tr>
+        <tr>
+            <td>价格</td>
+            <td><input type="text" name="price" th:value="${session.detailBook.price}" readonly ="readonly" style="width: 100%"/></td>
+        </tr>
+        <tr>
+            <td>作者</td>
+            <td><input type="text" name="author" th:value="${session.detailBook.author}" readonly ="readonly" style="width: 100%"/></td>
+        </tr>
+        <tr>
+            <td>简介</td>
+            <td><input type="text" name="remark" th:value="${session.detailBook.remark}" readonly ="readonly" style="width: 100%;height: 100%"/></td>
+        </tr>
+    </table>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Demo1225:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Demo1225_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Demo1225/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Demo1225" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/Demo1225/lib/commons-logging-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Demo1225/lib/spring-core-4.3.2.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Demo1225/lib/spring-beans-4.3.2.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Demo1225/lib/spring-context-4.3.2.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Demo1225/lib/spring-expression-4.3.2.RELEASE.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

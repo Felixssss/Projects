@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml" xmlns:color="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>main.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+  </head>
+  
+  <body>
+  <h1 align="center">客户管理系统</h1>
+    <a th:href="@{/user/addUser}" style="margin-left: 25%">新增客户</a>
+    <table width="600px" align="center" border="1px">
+    	<tr>
+    		<th>序号</th>
+    		<th>姓名</th>
+    		<!--<th>年龄</th>-->
+			<th>性别</th>
+			<!--<th>籍贯</th>-->
+    		<th style="width: 100px">操作</th>
+    	</tr>
+    	<!-- 遍历集合 -->
+    	<tr th:each="user,var:${session.users}">
+    		<td th:text="${var.count}"></td>
+			<td><a th:href="@{/user/detailUser(id=${user.id})}" th:text="${user.name}"></a> </td>
+    		<!--<td th:text="${user.age}"></td>-->
+			<td th:text="${user.gender}"></td>
+    		<td>
+    			<a th:href="@{/user/getUser(id=${user.id})}">更新客户信息</a>
+				<br/>
+    			<!--&nbsp;&nbsp;&nbsp;&nbsp;-->
+    			<a th:href="@{/user/del(id=${user.id})}">删除客户信息</a>
+    		</td>
+    	</tr>
+    </table>
+  </body>
+</html>

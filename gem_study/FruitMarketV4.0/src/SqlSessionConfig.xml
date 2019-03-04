@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!-- 根标签 -->
+<configuration>
+    <properties resource="db.properties"></properties>
+    <!--<settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>-->
+    <typeAliases>
+        <package name="com.gem.pojo"/>
+    </typeAliases>
+
+    <!-- 环境    默认开发环境 -->
+    <environments default="development">
+        <!-- 配置开发环境 -->
+        <environment id="development">
+            <!-- 事务管理器配置   jdbc -->
+            <transactionManager type="JDBC"/>
+            <!-- 数据源    数据库连接池-->
+            <dataSource type="POOLED">
+                <!-- 数据源  属性 -->
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${user}"/>
+                <property name="password" value="${pwd}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!-- 配置映射器   -->
+    <mappers>
+        <!--路径正确-->
+        <mapper resource="com/gem/pojo/fruitMapper.xml"/>
+    </mappers>
+</configuration>

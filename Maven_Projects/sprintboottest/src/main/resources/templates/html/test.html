@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>test.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+  </head>
+  
+  <body>
+
+    <input type="radio" name="gender" th:attr="checked=${gender=='男'?true:false}"/>男&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="radio" name="gender" th:attr="checked=${gender=='女'?true:false}"/>女
+    <br/>
+    <select>
+      	<option th:selected="${address eq '江苏'}">江苏</option>
+      	<option th:selected="${address eq '浙江'}">浙江</option>
+      	<option th:selected="${address eq '山东'}">山东</option>
+      	<option th:selected="${address eq '上海'}">上海</option>
+    </select>
+    <br/>
+    
+  </body>
+</html>

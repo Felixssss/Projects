@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.gem.dao.mapper.FruitMapper">
+    <select id="getAllFruit" resultType="Fruit">select fruitname,price,amount,comment from fruit</select>
+    <select id="findFruitByName" resultType="Fruit">select * from fruit where fruitname=#{fruitname}</select>
+    <select id="findFruitName" resultType="Fruit">select * from fruit where fruitname=#{fruitname}</select>
+    <insert id="addFruit" parameterType="Fruit" useGeneratedKeys="true" keyProperty="id">insert into fruit(fruitname,price,amount,comment) values(#{fruitname},#{price},#{amount},#{comment})</insert>
+    <delete id="delFruit">delete from fruit where fruitname=#{fruitname}</delete>
+    <update id="upFruit" parameterType="Fruit">update fruit set id=#{id},price=#{price},amount=#{amount},comment=#{comment} where fruitname=#{fruitname}</update>
+    <select id="ascPrice" resultType="Fruit">select * from fruit order by price asc</select>
+    <select id="descPrice" resultType="Fruit">select * from fruit order by price desc</select>
+
+</mapper>

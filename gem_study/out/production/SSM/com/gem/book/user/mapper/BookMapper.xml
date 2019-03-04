@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+		PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 映射器配置  sql pojo  namespace  id 自定义-->
+
+<mapper namespace="com.gem.book.user.mapper.BookMapper">
+	<select id="getBooks" resultType="Book" >
+		select * from books 
+	</select>
+	<delete id="delBook" >
+		delete from books where id=#{id}
+	</delete>
+	<select id="getBookById" resultType="Book">
+		select * from books where id=#{id}
+	</select>
+	<update id="upBook" parameterType="Book">
+		update books set bname=#{bname},price=#{price},remark=#{remark},author=#{author} where id=#{id}
+	</update>
+	<insert id="addBook" parameterType="Book">
+		insert into books(bname,price,remark,author) values(#{bname},#{price},#{remark},#{author});
+
+	</insert>
+</mapper>

@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml">
+<head >
+	<title>电影购票</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link href="../web/css/style.css" rel="stylesheet" type="text/css" media="all"/>
+
+	<link rel="stylesheet" type="text/css" href="../confirm/mycss.css"/>
+
+	<script type="text/javascript" src="../web/js/jquery-1.9.0.min.js"></script>
+	<script type="text/javascript" src="../web/js/move-top.js"></script>
+	<script type="text/javascript" src="../web/js/easing.js"></script>
+
+	<script  src="../confirm/myjs.js" ></script>
+
+
+</head>
+<body>
+<div class="header">
+	<div class="headertop_desc">
+		<div class="wrap">
+			<div class="nav_list">
+				<ul>
+					<li><a href="/web/show">电影主页</a></li>
+
+				</ul>
+			</div>
+			<div class="account_desc">
+				<ul>
+					<li><a th:href="@{/web/personal(uid=${session.curruser.id})}" ><b th:text="${session.curruser.name}"></b></a></li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div class="wrap">
+		<div class="header_top">
+			<div class="logo">
+				<a href="/web/show"><img src="../web/images/logo.png" alt=""/></a>
+			</div>
+			<div class="header_top_right">
+
+				<div class="clear"></div>
+			</div>
+			<script type="text/javascript">
+				function DropDown(el) {
+					this.dd = el;
+					this.initEvents();
+				}
+
+				DropDown.prototype = {
+					initEvents: function () {
+						var obj = this;
+
+						obj.dd.on('click', function (event) {
+							$(this).toggleClass('active');
+							event.stopPropagation();
+						});
+					}
+				}
+
+				$(function () {
+
+					var dd = new DropDown($('#dd'));
+
+					$(document).click(function () {
+						// all dropdowns
+						$('.wrapper-dropdown-2').removeClass('active');
+					});
+
+				});
+			</script>
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>
+<div class="main" align="center">
+	<div class="wrap">
+		<div class="content_top">
+
+			<div class="clear"></div>
+		</div>
+		<div class="desc span_3_of_2">
+
+
+			<form >
+				<div class="cont-desc span_1_of_2" style="text-align: left" >
+					<div class="product-details">
+						<div class="grid images_3_of_2">
+							<!--<img th:src="@{/}+${order.film_pic}" alt=""/>-->
+						</div>
+
+						<div class="desc span_3_of_2" style="width: auto">
+							<br/>
+							<h2 th:text="${session.orders.film_name}"></h2>
+							<br/>
+							<span style="color:orange">数量:</span>
+							<span th:text="${session.orders.film_number}"></span>
+							<span style="color:orange">张</span>
+							<br/>
+							<!--<div >-->
+							<!--	<p>Price: <span th:text="${order.film_price}"></span>RMB</p>-->
+							<span style="color:orange">金额: </span><span th:text="${session.countMoney}"></span>&nbsp;&nbsp;<span style="color:orange">￥</span>
+							<!--</div>-->
+							<div class="wish-list" style="font-size: 12px; color: grey">
+								<ul>
+									<span style="color:orange">观影时间：</span>
+									<br/>
+
+									<span th:text="${session.orders.film_start}" style="font-size: 14px; color: grey"></span>
+									~
+									<span th:text="${session.orders.film_end}" style="font-size: 14px; color: grey" ></span>
+								</ul>
+							</div>
+
+							<div class="wish-list" style="font-size: 12px; color: grey">
+							<span style="color:orange">订单时间:</span> <span th:text="${session.orders.order_time}"></span>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+
+					<div class="movie_desc" style="margin-left: 0px;" >
+							<!--<span ><a href="javascript:void(0)"  onclick="zhifu()" style="width: 250px;text-align: center" id="btn"> 立即支付</a></span>-->
+						<span ><a href="#"  onclick="zhifu('/web/show',2500)" style="width: 250px;text-align: center" id="btn"> 立即支付</a></span>
+
+					</div>
+					<script>
+
+						function  zhifu(url,time){
+								var txt=  "购票成功！   页面跳转中...";
+
+								window.wxc.xcConfirm(txt, window.wxc.xcConfirm.typeEnum.success);
+								setTimeout("top.location.href = '" + url + "'",time);
+
+
+						}
+					</script>
+				</div>
+			</form>
+		</div>
+	</div>
+
+</div>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$().UItoTop({easingType: 'easeOutQuart'});
+
+		});
+	</script>
+	<a href="#" id="toTop"><span id="toTopHover"> </span></a>
+
+</body>
+</html>
+

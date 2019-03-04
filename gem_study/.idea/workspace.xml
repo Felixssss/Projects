@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="NewsManagement:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a868ed26-94dc-4fa7-8cd8-243267af06f0" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1316963226">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSP" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="gem_study" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NewsManagement/web/up.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="976">
+              <caret line="61" column="75" selection-start-line="61" selection-start-column="75" selection-end-line="61" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NewsManagement/web/detail.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="880">
+              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Book/src/com/gem/demo/pojo/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Book/src/com/gem/demo/servlet/AddServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Book/web/login.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Book/src/com/gem/demo/servlet/LoginServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Book/web/detail.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NewsManagement/src/com/gem/demo/servlet/DetailServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NewsManagement/src/com/gem/demo/dao/impl/NewsDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NewsManagement/src/com/gem/demo/dao/BaseDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="SqlSessionConfig" />
+        <option value="XSLT Stylesheet" />
+        <option value="MyBatis-Config" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="MyBatis-Mapper" />
+        <option value="spring-beans.schema" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>main</find>
+      <find>book</find>
+      <find>new</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\Idea_Projects\gem_study\FruitMarketV3.0</dir>
+      <dir>E:\Idea_Projects\gem_study\Demo1128</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/NewsManagement/src/com/gem/demo/pojo/News.java" />
+        <option value="$PROJECT_DIR$/NewsManagement/src/com/gem/demo/util/NewsParseRs.java" />
+        <option value="$PROJECT_DIR$/NewsManagement/src/com/gem/demo/servlet/DelServlet.java" />
+        <option value="$PROJECT_DIR$/NewsManagement/web/add.jsp" />
+        <option value="$PROJECT_DIR$/NewsManagement/src/com/gem/demo/dao/impl/NewsDAOImpl.java" />
+        <option value="$PROJECT_DIR$/NewsManagement/src/com/gem/demo/filter/EncodeFilter.java" />
+        <option value="$PROJECT_DIR$/NewsManagement/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/NewsManagement/src/com/gem/demo/dao/NewsDAO.java" />
+        <option value="$PROJECT_DIR$/Book/src/com/gem/demo/servlet/DetailServlet.java" />
+        <option value="$PROJECT_DIR$/NewsManagement/src/com/gem/demo/servlet/AddServlet.java" />
+        <option value="$PROJECT_DIR$/Book/web/main.jsp" />
+        <option value="$PROJECT_DIR$/NewsManagement/src/com/gem/demo/servlet/UpServlet.java" />
+        <option value="$PROJECT_DIR$/NewsManagement/web/main.jsp" />
+        <option value="$PROJECT_DIR$/NewsManagement/src/com/gem/demo/servlet/MainServlet.java" />
+        <option value="$PROJECT_DIR$/NewsManagement/web/up.jsp" />
+        <option value="$PROJECT_DIR$/NewsManagement/web/detail.jsp" />
+        <option value="$PROJECT_DIR$/NewsManagement/src/com/gem/demo/servlet/DetailServlet.java" />
+        <option value="$PROJECT_DIR$/Demo1226/src/com/gem/demo/advice/MyAdvice.java" />
+        <option value="$PROJECT_DIR$/Demo1226/src/com/gem/demo/advice/MyAfterAdvice.java" />
+        <option value="$PROJECT_DIR$/Demo1226/src/com/gem/demo/advice/MyBeforeAdvice.java" />
+        <option value="$PROJECT_DIR$/Demo1226/src/com/gem/demo/test/Demo.java" />
+        <option value="$PROJECT_DIR$/Demo1226/src/com/gem/demo/advice/MyRoundAdvice.java" />
+        <option value="$PROJECT_DIR$/Demo1226/src/com/gem/demo/advice/MyThorwAdvice.java" />
+        <option value="$PROJECT_DIR$/Demo1226/src/com/gem/demo/advice/MyThrowAdvice02.java" />
+        <option value="$PROJECT_DIR$/Demo1226/src/com/gem/demo/test/Test.java" />
+        <option value="$PROJECT_DIR$/Demo1226/src/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/SSM/src/db.properties" />
+        <option value="$PROJECT_DIR$/SSM/src/com/gem/book/system/admin/mapper/UsersMapper.java" />
+        <option value="$PROJECT_DIR$/SSM/src/com/gem/book/system/admin/mapper/UsersMapper.xml" />
+        <option value="$PROJECT_DIR$/SSM/src/com/gem/book/system/admin/pojo/Users.java" />
+        <option value="$PROJECT_DIR$/SSM/src/com/gem/book/system/admin/service/UsersService.java" />
+        <option value="$PROJECT_DIR$/SSM/src/com/gem/book/user/pojo/Book.java" />
+        <option value="$PROJECT_DIR$/SSM/src/com/gem/book/system/admin/controller/UsersController.java" />
+        <option value="$PROJECT_DIR$/SSM/src/com/gem/book/system/admin/pojo/User.java" />
+        <option value="$PROJECT_DIR$/SSM/src/com/gem/book/system/admin/service/impl/UsersServiceImpl.java" />
+        <option value="$PROJECT_DIR$/SSM/src/com/gem/book/system/admin/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/SSM/web/main.jsp" />
+        <option value="$PROJECT_DIR$/SSM/web/upBook.jsp" />
+        <option value="$PROJECT_DIR$/SSM/src/com/gem/book/system/admin/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/SSM/src/com/gem/book/system/admin/service/UserService.java" />
+        <option value="$PROJECT_DIR$/SSM/src/com/gem/book/user/controller/BookController.java" />
+        <option value="$PROJECT_DIR$/SSM/src/com/gem/book/user/mapper/BookMapper.java" />
+        <option value="$PROJECT_DIR$/SSM/src/com/gem/book/user/mapper/BookMapper.xml" />
+        <option value="$PROJECT_DIR$/SSM/src/com/gem/book/user/service/BookService.java" />
+        <option value="$PROJECT_DIR$/SSM/src/com/gem/book/user/service/impl/BookServiceImpl.java" />
+        <option value="$PROJECT_DIR$/SSM/web/login.jsp" />
+        <option value="$PROJECT_DIR$/SSM/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/SSM/web/WEB-INF/page/main.jsp" />
+        <option value="$PROJECT_DIR$/SSM/src/com/gem/book/interceptor/LoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/SSM/src/springmvc.xml" />
+        <option value="$PROJECT_DIR$/SSM/src/applicationContext.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:/Dev/Java/tools/maven/apache-maven-3.3.3-bin/apache-maven-3.3.3" />
+        <option name="userSettingsFile" value="F:\Dev\Java\tools\maven\apache-maven-3.3.3-bin\apache-maven-3.3.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="736" />
+    <option name="y" value="7" />
+    <option name="width" value="1248" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="true" />
+      <abbreviatePackageNames ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gem_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gem_study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gem_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gem_study" type="462c0819:PsiDirectoryNode" />
+              <item name="Book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gem_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gem_study" type="462c0819:PsiDirectoryNode" />
+              <item name="Book" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gem_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gem_study" type="462c0819:PsiDirectoryNode" />
+              <item name="Book" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gem_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gem_study" type="462c0819:PsiDirectoryNode" />
+              <item name="Book" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gem_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="gem_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gem_study" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Demo1203" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="gem_study" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Demo1205" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547275957472" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
+    <property name="last_opened_file_path" value="F:/Dev/Java/学习资料/Gem/代码/0104/DemoSSM/WebRoot/WEB-INF/lib/spring-webmvc-4.3.2.RELEASE.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.41828573" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Idea_Projects\gem_study\SSM\web\WEB-INF\lib" />
+      <recent name="E:\Idea_Projects\gem_study\SSM\web\WEB-INF\page" />
+      <recent name="E:\Idea_Projects\gem_study\SSM\src\com\gem\book\user\service\Impl" />
+      <recent name="E:\Idea_Projects\gem_study\SSM\src\com\gem\book\user\service" />
+      <recent name="E:\Idea_Projects\gem_study\SSM\src\com\gem\book\user\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gem.demo.servlet" />
+      <recent name="util" />
+      <recent name="com.gem.pojo" />
+      <recent name="com.gem.dao.impl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Idea_Projects\gem_study\SSM\src\com\gem\xmgc\emp\mapper" />
+      <recent name="E:\Idea_Projects\gem_study\NewsManagement\web" />
+      <recent name="E:\Idea_Projects\gem_study\Demo1225_1" />
+      <recent name="E:\Idea_Projects\gem_study\Book\web" />
+      <recent name="E:\Idea_Projects\gem_study\Jsp\lib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="Demo1130" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.35" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/NewsManagement_war_exploded" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="NewsManagement:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/NewsManagement_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_gem_study" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9307" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="NewsManagement:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a868ed26-94dc-4fa7-8cd8-243267af06f0" name="Default" comment="" />
+      <created>1542799320752</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542799320752</updated>
+      <workItem from="1542799325536" duration="1590000" />
+      <workItem from="1542800994717" duration="1351000" />
+      <workItem from="1542802381121" duration="6156000" />
+      <workItem from="1542846168766" duration="21079000" />
+      <workItem from="1542886318433" duration="439000" />
+      <workItem from="1542886907081" duration="1002000" />
+      <workItem from="1542888324630" duration="5242000" />
+      <workItem from="1542893847809" duration="1371000" />
+      <workItem from="1542932794451" duration="4638000" />
+      <workItem from="1542941946889" duration="295000" />
+      <workItem from="1542942266243" duration="70000" />
+      <workItem from="1542942360547" duration="146000" />
+      <workItem from="1542942532547" duration="42000" />
+      <workItem from="1542942599877" duration="28000" />
+      <workItem from="1542942655199" duration="147000" />
+      <workItem from="1542942832584" duration="670000" />
+      <workItem from="1542943720810" duration="71000" />
+      <workItem from="1542943819193" duration="24000" />
+      <workItem from="1542943868803" duration="57000" />
+      <workItem from="1542943953163" duration="470000" />
+      <workItem from="1542944448998" duration="75000" />
+      <workItem from="1542944556564" duration="9874000" />
+      <workItem from="1543021612064" duration="17673000" />
+      <workItem from="1543060468489" duration="5038000" />
+      <workItem from="1543148444117" duration="835000" />
+      <workItem from="1543192121448" duration="861000" />
+      <workItem from="1543305555838" duration="5537000" />
+      <workItem from="1543368243535" duration="11330000" />
+      <workItem from="1543403682675" duration="996000" />
+      <workItem from="1543409884388" duration="2241000" />
+      <workItem from="1543451738758" duration="3202000" />
+      <workItem from="1543460978199" duration="192000" />
+      <workItem from="1543461669719" duration="16224000" />
+      <workItem from="1543542684262" duration="9408000" />
+      <workItem from="1543800655256" duration="21430000" />
+      <workItem from="1543884508601" duration="30703000" />
+      <workItem from="1543973619596" duration="14614000" />
+      <workItem from="1544066310347" duration="1317000" />
+      <workItem from="1544089886002" duration="3967000" />
+      <workItem from="1544094977509" duration="9000" />
+      <workItem from="1544095063102" duration="1980000" />
+      <workItem from="1544102878695" duration="651000" />
+      <workItem from="1544166280337" duration="66000" />
+      <workItem from="1544166358912" duration="1153000" />
+      <workItem from="1544235014962" duration="29000" />
+      <workItem from="1544235377180" duration="11338000" />
+      <workItem from="1544407451418" duration="1250000" />
+      <workItem from="1544431199400" duration="32000" />
+      <workItem from="1544431721619" duration="198000" />
+      <workItem from="1544437096719" duration="42000" />
+      <workItem from="1544437173467" duration="21000" />
+      <workItem from="1545045095248" duration="1638000" />
+      <workItem from="1545097533771" duration="271000" />
+      <workItem from="1545097834042" duration="2676000" />
+      <workItem from="1545104272776" duration="8753000" />
+      <workItem from="1545183909327" duration="16066000" />
+      <workItem from="1545267266931" duration="12827000" />
+      <workItem from="1545356020311" duration="7851000" />
+      <workItem from="1545441118323" duration="18699000" />
+      <workItem from="1545476437750" duration="3275000" />
+      <workItem from="1545611770677" duration="10620000" />
+      <workItem from="1545697993789" duration="13691000" />
+      <workItem from="1545737566882" duration="1807000" />
+      <workItem from="1545739424735" duration="4035000" />
+      <workItem from="1545789675547" duration="2057000" />
+      <workItem from="1545808198991" duration="8259000" />
+      <workItem from="1545827522743" duration="68000" />
+      <workItem from="1545827615213" duration="2648000" />
+      <workItem from="1545870653815" duration="595000" />
+      <workItem from="1545872377437" duration="1173000" />
+      <workItem from="1545899726284" duration="1040000" />
+      <workItem from="1545957207767" duration="20081000" />
+      <workItem from="1546321882128" duration="737000" />
+      <workItem from="1546395596151" duration="6292000" />
+      <workItem from="1546497320169" duration="9724000" />
+      <workItem from="1546562483305" duration="6344000" />
+      <workItem from="1546651134398" duration="3956000" />
+      <workItem from="1546657193355" duration="4390000" />
+      <workItem from="1546830218251" duration="2967000" />
+      <workItem from="1546865331764" duration="599000" />
+      <workItem from="1546911415812" duration="2730000" />
+      <workItem from="1546995655857" duration="836000" />
+      <workItem from="1547089737957" duration="4150000" />
+      <workItem from="1547115737250" duration="3907000" />
+      <workItem from="1547174256992" duration="610000" />
+      <workItem from="1547196021288" duration="612000" />
+      <workItem from="1547257947896" duration="3168000" />
+      <workItem from="1547261143163" duration="2817000" />
+      <workItem from="1547276656040" duration="31000" />
+      <workItem from="1547276712261" duration="1586000" />
+      <workItem from="1547453117983" duration="728000" />
+      <workItem from="1547704407652" duration="818000" />
+      <workItem from="1547705508468" duration="7000" />
+      <workItem from="1547711629401" duration="607000" />
+      <workItem from="1548300772610" duration="45000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="412965000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.62023216" visible="true" weight="0.2955764" />
+      <window_info id="Structure" order="1" sideWeight="0.5099715" side_tool="true" weight="0.17962466" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.5099715" side_tool="true" weight="0.17962466" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.37976784" side_tool="true" weight="0.1621984" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32299012" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.32905984" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5049594" side_tool="true" weight="0.33145276" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32905984" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32299012" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32905984" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3281027" />
+      <window_info anchor="bottom" x="292" y="403" width="1163" height="291" id="Run" order="13" sideWeight="0.49504057" visible="true" weight="0.33145276" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Duplicate detector" order="15" weight="0.57182705" />
+      <window_info anchor="bottom" id="Spring" order="16" weight="0.32914925" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24945055" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32908848" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.32967034" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/com/sun/jmx/mbeanserver/JmxMBeanServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="800" selection-start-line="800" selection-end-line="800" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/com/sun/jmx/interceptor/DefaultMBeanServerInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="818" selection-start-line="818" selection-end-line="818" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="747" selection-start-line="747" selection-end-line="747" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/web/main.jsp" />
+    <entry file="file://$PROJECT_DIR$/SSM/web/upBook.jsp" />
+    <entry file="file://$PROJECT_DIR$/SSM/web/WEB-INF/page/upBook.jsp" />
+    <entry file="file://$PROJECT_DIR$/SSM/src/com/gem/book/user/pojo/Book.java" />
+    <entry file="file://$PROJECT_DIR$/NewsManagement/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/src/com/gem/book/system/admin/controller/UserController.java" />
+    <entry file="file://$PROJECT_DIR$/Book/src/com/gem/demo/filter/EncodeFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/web/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/SSM/web/login.jsp" />
+    <entry file="file://$PROJECT_DIR$/Book/src/com/gem/demo/util/BookParseRs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/web/WEB-INF/page/addBook.jsp" />
+    <entry file="file://$PROJECT_DIR$/SSM/src/com/gem/book/system/admin/pojo/User.java" />
+    <entry file="file://$PROJECT_DIR$/SSM/src/com/gem/book/system/admin/service/UserService.java" />
+    <entry file="file://$PROJECT_DIR$/SSM/src/com/gem/book/user/service/BookService.java" />
+    <entry file="file://$PROJECT_DIR$/SSM/src/com/gem/book/user/service/impl/BookServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/SSM/src/com/gem/book/user/controller/BookController.java" />
+    <entry file="file://$PROJECT_DIR$/SSM/src/com/gem/book/interceptor/LoginInterceptor.java" />
+    <entry file="file://$PROJECT_DIR$/SSM/src/com/gem/book/user/mapper/BookMapper.java" />
+    <entry file="file://$PROJECT_DIR$/SSM/src/com/gem/book/user/mapper/BookMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/SSM/src/com/gem/book/system/admin/mapper/UsersMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/SSM/src/db.properties" />
+    <entry file="file://$PROJECT_DIR$/SSM/src/springmvc.xml" />
+    <entry file="file://$PROJECT_DIR$/SSM/src/com/gem/book/system/admin/mapper/UserMapper.java" />
+    <entry file="file://$PROJECT_DIR$/SSM/src/com/gem/book/system/admin/service/impl/UserServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/SSM/src/applicationContext.xml" />
+    <entry file="jar://F:/Dev/Java/学习资料/Gem/tools/jar/jstl.jar和standard-1.1.2.jar/standard-1.1.2.jar!/META-INF/c.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="547" column="21" lean-forward="true" selection-start-line="547" selection-start-column="21" selection-end-line="548" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/web/WEB-INF/page/main.jsp" />
+    <entry file="file://$PROJECT_DIR$/NewsManagement/web/add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsManagement/src/com/gem/demo/servlet/UpServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsManagement/src/com/gem/demo/util/DBInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsManagement/src/com/gem/demo/util/IParseRs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsManagement/src/com/gem/demo/dao/NewsDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsManagement/src/com/gem/demo/filter/EncodeFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsManagement/web/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="68" column="91" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsManagement/src/com/gem/demo/servlet/MainServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsManagement/src/com/gem/demo/servlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsManagement/src/com/gem/demo/pojo/News.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsManagement/src/com/gem/demo/util/NewsParseRs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsManagement/web/up.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="976">
+          <caret line="61" column="75" selection-start-line="61" selection-start-column="75" selection-end-line="61" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsManagement/web/detail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Book/src/com/gem/demo/pojo/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Book/src/com/gem/demo/servlet/AddServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Book/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Book/src/com/gem/demo/servlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsManagement/src/com/gem/demo/servlet/DetailServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsManagement/src/com/gem/demo/dao/impl/NewsDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsManagement/src/com/gem/demo/dao/BaseDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Book/web/detail.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>NewsManagement:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.41828573" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (Book)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.41828573" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.41828573" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.41828573" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Book</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.41828573" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>SSM</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.41828573" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
